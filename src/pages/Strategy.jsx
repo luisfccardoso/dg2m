@@ -2,13 +2,6 @@ import React, { useState } from 'react';
 import { NavLink, Link, Routes, Route, useLocation } from 'react-router-dom';
 import './Main.css';
 
-import Strategy from './Strategy';
-import People from './People';
-import Formalization from './Formalization';
-import Quality from './Quality';
-import Infrastructure from './Infrastructure';
-import Open from './Open';
-
 const dimensions = [
   {
     id: 'dataStrategy',
@@ -110,8 +103,7 @@ const Dimensions = () => {
   const location = useLocation();
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
-  const isStrategyPage = location.pathname === '/dg2m/strategy';
-
+  
   return (
     <div>
       <header className="main-header">
@@ -129,20 +121,20 @@ const Dimensions = () => {
         <nav className={`sidebar ${menuOpen ? 'open' : 'closed'}`}>
           <ul className="nav-links1">
             <li>
-              <NavLink to="/dg2m/strategy" className={({ isActive }) => (isActive ? 'active-link' : '')}>
+              <NavLink to="/strategy" className={({ isActive }) => (isActive ? 'active-link' : '')}>
                 Estratégia e Governança de Dados
               </NavLink>
             </li>
-            <li><Link to="/dg2m/people">Equipes, Pessoas e Estrutura Organizacional</Link></li>
-            <li><Link to="/dg2m/formalization">Formalização e Processos de Gestão de Dados</Link></li>
-            <li><Link to="/dg2m/quality">Qualidade dos Dados</Link></li>
-            <li><Link to="/dg2m/infrastructure">Infraestrutura de Dados</Link></li>
-            <li><Link to="/dg2m/open">Dados Abertos</Link></li>
+            <li><Link to="/people">Equipes, Pessoas e Estrutura Organizacional</Link></li>
+            <li><Link to="/formalization">Formalização e Processos de Gestão de Dados</Link></li>
+            <li><Link to="/quality">Qualidade dos Dados</Link></li>
+            <li><Link to="/infrastructure">Infraestrutura de Dados</Link></li>
+            <li><Link to="/open">Dados Abertos</Link></li>
           </ul>
         </nav>
 
         <main className="dimension-content">
-          {isStrategyPage && (
+          { (
             <>
               {dimensions.map((dim) => (
                 <section key={dim.id}>
@@ -183,14 +175,6 @@ const Dimensions = () => {
             </>
           )}
 
-          <Routes>
-            <Route path="/dg2m/strategy" element={<Strategy />} />
-            <Route path="/dg2m/people" element={<People />} />
-            <Route path="/dg2m/formalization" element={<Formalization />} />
-            <Route path="/dg2m/quality" element={<Quality />} />
-            <Route path="/dg2m/infrastructure" element={<Infrastructure />} />
-            <Route path="/dg2m/open" element={<Open />} />
-          </Routes>
         </main>
       </div>
     </div>

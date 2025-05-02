@@ -2,13 +2,6 @@ import React, { useState } from 'react';
 import { NavLink, Link, Routes, Route, useLocation } from 'react-router-dom';
 import './Main.css';
 
-import Strategy from './Strategy';
-import People from './People';
-import Formalization from './Formalization';
-import Quality from './Quality';
-import Infrastructure from './Infrastructure';
-import Open from './Open';
-
 const dimensions = [
   {
     id: 'people',
@@ -110,7 +103,6 @@ const Dimensions = () => {
   const location = useLocation();
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
-  const isPeoplePage = location.pathname === '/dg2m/people';
 
   return (
     <div>
@@ -128,21 +120,21 @@ const Dimensions = () => {
 
         <nav className={`sidebar ${menuOpen ? 'open' : 'closed'}`}>
           <ul className="nav-links1">
-            <li><Link to="/dg2m/strategy">Estratégia e Governança de Dados</Link></li>
+            <li><Link to="/strategy">Estratégia e Governança de Dados</Link></li>
             <li>
-              <NavLink to="/dg2m/people" className={({ isActive }) => (isActive ? 'active-link' : '')}>
+              <NavLink to="/people" className={({ isActive }) => (isActive ? 'active-link' : '')}>
                 Equipes, Pessoas e Estrutura Organizacional
               </NavLink>
             </li>
-            <li><Link to="/dg2m/formalization">Formalização e Processos de Gestão de Dados</Link></li>
-            <li><Link to="/dg2m/quality">Qualidade dos Dados</Link></li>
-            <li><Link to="/dg2m/infrastructure">Infraestrutura de Dados</Link></li>
-            <li><Link to="/dg2m/open">Dados Abertos</Link></li>
+            <li><Link to="/formalization">Formalização e Processos de Gestão de Dados</Link></li>
+            <li><Link to="/quality">Qualidade dos Dados</Link></li>
+            <li><Link to="/infrastructure">Infraestrutura de Dados</Link></li>
+            <li><Link to="/open">Dados Abertos</Link></li>
           </ul>
         </nav>
 
         <main className="dimension-content">
-          {isPeoplePage && (
+          {(
             <>
               {dimensions.map((dim) => (
                 <section key={dim.id}>
@@ -182,15 +174,6 @@ const Dimensions = () => {
               ))}
             </>
           )}
-
-          <Routes>
-            <Route path="/dg2m/strategy" element={<Strategy />} />
-            <Route path="/dg2m/people" element={<People />} />
-            <Route path="/dg2m/formalization" element={<Formalization />} />
-            <Route path="/dg2m/quality" element={<Quality />} />
-            <Route path="/dg2m/infrastructure" element={<Infrastructure />} />
-            <Route path="/dg2m/open" element={<Open />} />
-          </Routes>
         </main>
       </div>
     </div>

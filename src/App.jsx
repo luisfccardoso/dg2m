@@ -21,27 +21,27 @@ export default function App() {
           <input type="checkbox" id="menu-toggle" />
           <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
           <ul className="nav-links">
-            <li><Link to="/dg2m">Sobre</Link></li>
-            <li><Link to="/dg2m/level">Níveis</Link></li>
-            <li><Link to="/dg2m/dimensions">Dimensões</Link></li>
-            <li><Link to="/dg2m/roles">Papéis</Link></li>
+            <li><Link to="/">Sobre</Link></li>
+            <li><Link to="/level">Níveis</Link></li>
+            <li><Link to="/dimensions">Dimensões</Link></li>
+            <li><Link to="/roles">Papéis</Link></li>
           </ul>
         </nav>
       </header>
 
       <main>
-        <Routes>
-          <Route path="/dg2m" element={<Main />} />
-          <Route path="/dg2m/level" element={<Level />} />
-          <Route path="/dg2m/dimensions" element={<Dimensions />} />
-          <Route path="/dg2m/roles" element={<Roles />} />
-          <Route path="/dg2m/strategy" element={<Strategy />} />
-          <Route path="/dg2m/people" element={<People />} />
-          <Route path="/dg2m/formalization" element={<Formalization />} />
-          <Route path="/dg2m/quality" element={<Quality />} />
-          <Route path="/dg2m/infrastructure" element={<Infrastructure />} />
-          <Route path="/dg2m/open" element={<Open />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/level" element={<Level />} />
+        <Route path="/dimensions" element={<Dimensions />} />
+        <Route path="/roles" element={<Roles />} />
+        <Route path="/strategy" element={<Strategy />} />
+        <Route path="/people" element={<People />} />
+        <Route path="/formalization" element={<Formalization />} />
+        <Route path="/quality" element={<Quality />} />
+        <Route path="/infrastructure" element={<Infrastructure />} />
+        <Route path="/open" element={<Open />} />
+      </Routes>
       </main>
 
       <footer className="main-footer">

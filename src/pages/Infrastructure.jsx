@@ -91,7 +91,7 @@ const dimensions = [
         capabilities:
           'Soluções otimizam os serviços computacionais com agilidade, escalabilidade e desempenho; os sistemas de metadados e registros são totalmente automatizados, quando necessário.',
         improvement:
-          'Realizar benchmarking com práticas líderes em agilidade, segurança e integração de infraestrutura. Investir em ferramentas de orquestração de infraestrutura com tecnologias adequadas para melhorar escalabilidade e resposta. Promover aprendizado contínuo para equipes de infraestrutura e DevOps.',
+          'Realizar benchmarking com líderes em agilidade, segurança e integração de infraestrutura. Investir em ferramentas de orquestração de infraestrutura com tecnologias adequadas para melhorar escalabilidade e resposta. Promover aprendizado contínuo para equipes de infraestrutura e DevOps.',
       },
     ],
   },

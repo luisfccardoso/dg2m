@@ -70,34 +70,6 @@ const Main = () => {
           </thead>
           <tbody>
             <tr>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>09/05/2025 (sexta)</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>12h30</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                <a href="https://calendar.app.google/TSYZ4KTRHfA8nuV2A" target="_blank" rel="noopener noreferrer">Acessar</a>
-              </td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>09/05/2025 (sexta)</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>19h30</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                <a href="https://calendar.app.google/kW5u3hZRyN8NQSTk6" target="_blank" rel="noopener noreferrer">Acessar</a>
-              </td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>10/05/2025 (sabado)</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>10h30</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                <a href="https://calendar.app.google/eLwksn5j48xPiY9w6" target="_blank" rel="noopener noreferrer">Acessar</a>
-              </td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>12/05/2025 (segunda)</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>12h30</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>
-                <a href="https://calendar.app.google/LgcmYyRBiRiGA3PA6" target="_blank" rel="noopener noreferrer">Acessar</a>
-              </td>
-            </tr>
-            <tr>
               <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>12/05/2025 (segunda)</td>
               <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>12h30</td>
               <td style={{ padding: '10px', borderBottom: '1px solid #ccc' }}>

@@ -35,7 +35,7 @@ const Main = () => {
 
       <section className="main-section" id="participation">
         <h2>Formas de Participação</h2>
-        <p>Você pode escolher uma das três formas de participação abaixo:</p>
+        <p>Você pode escolher uma das três formas de participação abaixo (o que preferir):</p>
 
       
         <h3>1) Preenchimento Individual (com vídeo explicativo)</h3>
@@ -57,7 +57,7 @@ const Main = () => {
         <h3>3) Sessão Guiada em Grupo (via videochamada)</h3>
         <p>
           Participe de uma sessão em grupo, com explicações ao vivo durante o preenchimento do questionário. 
-          O preenchimento tem duração prevista 20 a 40 minutos. Ficarei na sala por 1 hora para tirar dúvidas.
+          Ficarei na sala por 1 hora para tirar dúvidas.
           Seguem abaixo os horários e links de acesso:
         </p>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: 'Arial, sans-serif' }}>

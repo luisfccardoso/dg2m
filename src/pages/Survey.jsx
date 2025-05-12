@@ -7,15 +7,23 @@ const Main = () => {
       <header className="main-header">
         <h1>Participe da Pesquisa sobre Governança de Dados</h1>
         <p>
-          Contribua com a validação de um framework que avalia o nível de maturidade em Governança de Dados. Todas as instruções estão abaixo.
-        </p>
-        <p>
           <strong>
-            Desde já, agradeço muito pela sua colaboração!<br />
-            Caso tenha dúvidas ou queira saber mais sobre a pesquisa, entre em contato <a href="mailto:luisfilipe.tec@gmail.com" target="_blank">por e-mail</a>.
+            Desde já, agradeço muito pela sua colaboração!
           </strong>
         </p>
       </header>
+
+      <section className="main-section center-button" id="overview">
+        <a class="botao" href="https://forms.gle/4HKNDKwBBEJxAq7r6" target="_blank">
+          Preencha o formulário clicando aqui
+        </a>
+        <a class="botao" href="https://calendar.app.google/92yQ3cSuJvuKqD626" target="_blank">
+          Marque uma reunião comigo, se tiver dúvidas
+        </a>
+        <a class="botao" href="mailto:luisfilipe.tec@gmail.com" target="_blank">
+          Ou fale comigo em luisfilipe.tec@gmail.com
+        </a>
+      </section>
 
       <section className="main-section" id="overview">
         <h2>Apresentação</h2>

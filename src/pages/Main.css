@@ -86,10 +86,11 @@
 }
 
 .nav-links1 li a.active-link {
-    background-color: #ffd966;  
+    background-color: #ffd966;
     color: #000;
     font-weight: bold;
 }
+
 .content-area {
     flex-grow: 1;
     padding: 30px 40px;
@@ -306,5 +307,31 @@ html {
     font-weight: bold;
     color: #000;
     border-radius: 4px;
-  }
-  
+}
+
+.botao {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    word-break: break-word;   
+    white-space: normal; 
+}
+
+.botao:hover {
+    background-color: #555;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}

@@ -168,7 +168,7 @@ const Dimensions = () => {
                       <li><strong>Políticas:</strong> {dim.levels[activeLevel].policies}</li>
                       <li><strong>Capacidades:</strong> {dim.levels[activeLevel].capabilities}</li>
                     </ul>
-                    <p><strong>Melhorias sugeridas:</strong> {dim.levels[activeLevel].improvement}</p>
+                    <p><strong>Melhorias e práticas sugeridas:</strong> {dim.levels[activeLevel].improvement}</p>
                   </div>
                 </section>
               ))}

@@ -13,18 +13,24 @@ const Main = () => {
         </p>
       </header>
 
-      <section className="main-section center-button" id="overview">
-        <a class="botao" href="https://forms.gle/4HKNDKwBBEJxAq7r6" target="_blank">
-          Preencha o formulário clicando aqui
-        </a>
-        <a class="botao" href="https://calendar.app.google/92yQ3cSuJvuKqD626" target="_blank">
-          Marque uma reunião comigo, se tiver dúvidas
-        </a>
-        <a class="botao" href="mailto:luisfilipe.tec@gmail.com" target="_blank">
-          Ou fale comigo em luisfilipe.tec@gmail.com
-        </a>
+      <section>
+        <div class="button-wrapper">
+          <a class="button-menu" href="https://forms.gle/4HKNDKwBBEJxAq7r6" target="_blank" rel="noopener noreferrer">
+            Preencha o formulário clicando aqui
+          </a>
+          <a class="button-menu" href="https://calendar.app.google/92yQ3cSuJvuKqD626" target="_blank" rel="noopener noreferrer">
+            Marque uma reunião individual comigo
+          </a>
+          <a class="button-menu" href="https://calendar.app.google/363N2dHfjYC1Y9YR8" target="_blank" rel="noopener noreferrer">
+            Sessão online em grupo, do dia 04/06/25 às 19h
+          </a>
+          <a class="button-menu" href="mailto:luisfilipe.tec@gmail.com" target="_blank" rel="noopener noreferrer">
+            Ou fale comigo em luisfilipe.tec@gmail.com
+          </a>
+        </div>
       </section>
 
+      
       <section className="main-section" id="overview">
         <h2>Apresentação</h2>
 

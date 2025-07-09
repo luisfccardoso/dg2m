@@ -42,43 +42,43 @@ const dimensions = [
           'Mapear as fontes de dados e identificar possíveis causas de problemas de qualidade. Introduzir diretrizes básicas de qualidade e critérios como consistência e completude. Iniciar programas de treinamento para aumentar a conscientização técnica sobre qualidade dos dados. Realizar benchmarking com líderes em governança de dados para descobrir práticas eficazes.',
       },
       {
-        title: 'Nível 2: Repetível – Práticas Emergentes, Iniciativas Incipientes e Transformação de Ativos',
+        title: 'Nível 2: Emergente – Iniciativas Incipientes, Transformação de Ativos e Processos Repetíveis',
         content:
           'Além das melhorias dos níveis anteriores, a organização começa a medir e monitorar aspectos específicos da qualidade dos dados, como perfilamento, disponibilidade e acessibilidade. Ferramentas de plataformas de dados e mecanismos iniciais de feedback podem ser introduzidos.',
         people:
-          'Equipes técnicas e de negócios reconhecem a importância da qualidade dos dados para a eficiência e eficácia organizacional.',
+          'Equipes técnicas e de negócios demonstram crescente reconhecimento da importância da qualidade dos dados para a eficiência e eficácia organizacional.',
         policies:
           'Critérios iniciais como completude e precisão são estabelecidos para avaliação.',
         capabilities:
           'Ferramentas básicas para perfilamento e validação de dados começam a ser implementadas, e o impacto da baixa qualidade em áreas de negócio específicas começa a ser avaliado.',
         improvement:
-          'Desenvolver métricas claras e mensuráveis para avaliar a qualidade dos dados. Implementar ferramentas de perfilamento para identificar problemas. Ampliar os critérios de qualidade para incluir impacto nos negócios, confiabilidade e acessibilidade. Estabelecer processos formais para limpeza e validação regulares dos dados.',
+          'Desenvolver métricas claras e mensuráveis para avaliar a qualidade dos dados. Implementar e padronizar processos de limpeza e validação como as primeiras ações estruturadas de resolução de problemas de dados. Expandir o uso de ferramentas de perfilamento para identificar tendências e anomalias. Ampliar os critérios de qualidade para incluir impacto nos negócios, confiabilidade e acessibilidade. Estabelecer processos formais para limpeza e validação regulares dos dados.',
       },
       {
         title: 'Nível 3: Definido – Estruturado e Padronizado',
         content:
           'Além das melhorias dos níveis anteriores, a qualidade dos dados torna-se um processo gerenciado e sistemático com diretrizes organizacionais alinhadas com políticas de governança, privacidade e segurança.',
         people:
-          'As partes interessadas compreendem os impactos financeiros e reputacionais da baixa qualidade dos dados.',
+          'As partes interessadas compreendem os impactos financeiros e reputacionais da baixa qualidade dos dados, pelo menos, na maioria das bases de dados das áreas organizacionais.',
         policies:
-          'Diretrizes e padrões organizacionais claros são definidos e alinhados com políticas de privacidade, segurança e estruturas de governança.',
+          'Diretrizes e padrões organizacionais claros são definidos e alinhados, pelo menos, na maioria das bases das unidades da organização, com políticas de privacidade, segurança e estruturas de governança.',
         capabilities:
           'Sistemas de benchmarking e monitoramento contínuo são introduzidos. Mecanismos de feedback são integrados para apoiar melhorias na qualidade.',
         improvement:
-          'Formalizar os processos de avaliação e melhoria contínua da qualidade dos dados. Expandir o uso de ferramentas para monitoramento em tempo adequado. Garantir que os padrões sejam amplamente comunicados e aplicados. Utilizar mecanismos de feedback para orientar ajustes na qualidade.',
+          'Formalizar os processos de avaliação e melhoria contínua da qualidade dos dados. Expandir o uso de ferramentas para monitoramento em tempo adequado. Otimizar os processos de correção e enriquecimento de dados, com foco na identificação e resolução das causas-raiz dos problemas. Garantir que os padrões sejam amplamente comunicados e aplicados. Utilizar mecanismos de feedback para orientar ajustes na qualidade.',
       },
       {
         title: 'Nível 4: Gerenciado – Medido e Preditivo',
         content:
           'Além das melhorias dos níveis anteriores, a organização monitora a qualidade dos dados com métricas e ferramentas estabelecidas, garantindo processos previsíveis e alinhamento com a governança interna e externa.',
         people:
-          'As equipes compreendem as causas dos problemas de qualidade e como resolvê-los utilizando dados de desempenho.',
+          'As equipes compreendem as causas dos problemas de qualidade das bases das unidades de negócio de forma abrangente e como resolvê-los utilizando dados de desempenho.',
         policies:
           'As políticas organizacionais são alinhadas e baseadas em indicadores quantitativos e revisadas periodicamente para garantir alinhamento.',
         capabilities:
           'Ferramentas preditivas, dashboards de desempenho e sistemas automatizados de perfilamento apoiam a gestão proativa da qualidade.',
         improvement:
-          'Realizar auditorias regulares para avaliar e ajustar métricas de qualidade. Implementar sistemas preditivos para antecipar e resolver problemas de qualidade. Monitorar expectativas e tendências de feedback de forma sistemática.',
+          'Realizar auditorias regulares para avaliar e ajustar métricas de qualidade. Desenvolver e otimizar modelos preditivos e sistemas automatizados, quando necessário, para antecipar, prevenir e resolver problemas de qualidade de dados antes que impactem o negócio. Monitorar expectativas e tendências de feedback de forma sistemática.',
       },
       {
         title: 'Nível 5: Otimizado – Inovação e Melhoria Contínua',
@@ -89,9 +89,9 @@ const dimensions = [
         policies:
           'Diretrizes dinâmicas e adaptáveis evoluem com mudanças organizacionais e tecnológicas.',
         capabilities:
-          'Tecnologias de ponta aprimoram o perfilamento, a confiabilidade e o monitoramento em tempo real da qualidade. Ferramentas de plataformas de dados e mecanismos de feedback são totalmente integrados para sustentar a melhoria contínua.',
+          'Tecnologias de ponta aprimoram o perfilamento, a confiabilidade e o monitoramento em tempo real da qualidade, permitindo decisões e ações automatizadas com base em métricas de desempenho e qualidade de dados, quando necessário. Ferramentas de plataformas de dados e mecanismos de feedback são totalmente integrados para sustentar a melhoria contínua.',
         improvement:
-          'Investir em tecnologias emergentes para apoiar iniciativas de qualidade dos dados. Desenvolver parcerias para benchmarking de boas práticas em qualidade. Criar programas avançados de capacitação para equipes sobre práticas de qualidade. Avaliar continuamente o alinhamento com a governança e a relevância estratégica das métricas de qualidade.',
+          'Investir em tecnologias emergentes para apoiar iniciativas de qualidade dos dados, incluindo tomada de decisão autônoma a partir de métricas de desempenho e qualidade de dados, quando necessário. Desenvolver parcerias para benchmarking de boas práticas em qualidade. Criar programas avançados de capacitação para equipes sobre práticas de qualidade. Avaliar continuamente o alinhamento com a governança e a relevância estratégica das métricas de qualidade, garantindo que impulsionem ações e otimizações automáticas, quando for a situação.',
       },
     ],
   },
@@ -121,14 +121,14 @@ const Dimensions = () => {
         <nav className={`sidebar ${menuOpen ? 'open' : 'closed'}`}>
           <ul className="nav-links1">
             <li><Link to="/strategy">Estratégia e Governança de Dados</Link></li>
-            <li><Link to="/people">Equipes, Pessoas e Estrutura Organizacional</Link></li>
+            <li><Link to="/people">Cultura, Pessoas e Estrutura Organizacional</Link></li>
             <li><Link to="/formalization">Formalização e Processos de Gestão de Dados</Link></li>
             <li>
               <NavLink to="/quality" className={({ isActive }) => (isActive ? 'active-link' : '')}>
                 Qualidade dos Dados
               </NavLink>
             </li>
-            <li><Link to="/infrastructure">Infraestrutura de Dados</Link></li>
+            <li><Link to="/infrastructure">Infraestrutura para Dados</Link></li>
             <li><Link to="/open">Dados Abertos</Link></li>
           </ul>
         </nav>
@@ -168,7 +168,7 @@ const Dimensions = () => {
                       <li><strong>Políticas:</strong> {dim.levels[activeLevel].policies}</li>
                       <li><strong>Capacidades:</strong> {dim.levels[activeLevel].capabilities}</li>
                     </ul>
-                    <p><strong>Melhorias e práticas sugeridas:</strong> {dim.levels[activeLevel].improvement}</p>
+                    <p><strong>Melhorias e práticas recorrentes para o nível:</strong> {dim.levels[activeLevel].improvement}</p>
                   </div>
                 </section>
               ))}

@@ -13,7 +13,7 @@ const maturityLevels = [
       'No nível inicial, as primeiras iniciativas relacionadas à gestão de dados começam a surgir, mas de maneira desorganizada e sem alinhamento estratégico. A organização está em uma fase de aprendizado, explorando ferramentas e tecnologias sem uma visão estruturada de longo prazo.\n\nAs decisões são reativas e baseadas na intuição, com projetos exploratórios ocasionais voltados à compreensão dos possíveis usos dos dados. No entanto, a falta de documentação e de processos padronizados limita a evolução dessas iniciativas.',
   },
   {
-    title: 'Nível 2: Repetível – Práticas Emergentes, Iniciativas Incipientes e Transformação de Ativos',
+    title: 'Nível 2: Emergente – Iniciativas Incipientes, Transformação de Ativos e Processos Repetíveis',
     description:
       'Além dos avanços do estágio anterior, neste nível os dados passam a ser reconhecidos como um ativo estratégico, e a organização começa a utilizar ferramentas como dashboards e processos básicos para apoiar a tomada de decisões.\n\nO desenvolvimento de protótipos e os primeiros investimentos tecnológicos caracterizam esse nível. Algumas áreas começam a padronizar processos, e as decisões passam a se basear em informações extraídas dos dados. Contudo, a adoção dessas práticas ainda ocorre de maneira isolada dentro da organização, sem uma governança formal consolidada.',
   },
@@ -25,12 +25,12 @@ const maturityLevels = [
   {
     title: 'Nível 4: Gerenciado – Medido e Preditivo',
     description:
-      'Além dos avanços dos estágios anteriores, neste nível a organização atinge um controle significativo sobre seus processos de governança de dados, utilizando métricas quantitativas e indicadores estatísticos para monitorar, gerenciar e prever resultados.\n\nAs decisões tornam-se totalmente orientadas por dados, eliminando a subjetividade e reduzindo os riscos operacionais. A governança baseia-se em indicadores-chave de desempenho (KPIs), assegurando conformidade contínua e eficiência. Sistemas e processos são monitorados em tempo real para garantir que o desempenho esteja adequado e alinhado às necessidades do negócio.',
+      'Além dos avanços do estágio anterior, neste nível a organização atinge um controle significativo sobre seus processos de governança de dados, utilizando métricas quantitativas e indicadores estatísticos para monitorar, gerenciar e prever resultados.\n\nAs decisões tornam-se totalmente orientadas por dados, eliminando a subjetividade e reduzindo os riscos operacionais. A governança baseia-se em indicadores-chave de desempenho (KPIs), assegurando conformidade contínua e eficiência. Sistemas e processos são monitorados em tempo real para garantir que o desempenho esteja adequado e alinhado às necessidades do negócio.',
   },
   {
     title: 'Nível 5: Otimizado – Inovação e Melhoria Contínua',
     description:
-      'Avançando, no nível mais avançado a governança de dados e a ciência de dados tornam-se ativos estratégicos, impulsionando a inovação e promovendo um ciclo de melhoria contínua baseado em aprendizado e análise preditiva.\n\nA organização utiliza processos altamente refinados, com métricas, indicadores e análises constantemente aprimorados para atender aos objetivos estratégicos. Soluções inovadoras são integradas entre os stakeholders e as cadeias de valor, promovendo colaboração e alinhamento em toda a estrutura organizacional. Além disso, tecnologias avançadas e automação são amplamente utilizadas para otimizar operações e gerar vantagem competitiva.',
+      'Avançando, no nível mais avançado a governança de dados e a ciência de dados tornam-se ativos estratégicos, impulsionando a inovação e promovendo um ciclo de melhoria contínua baseado em aprendizado e análise preditiva. A organização aprimora continuamente seus processos, métricas e análises de dados, alinhando-os ao máximo aos objetivos estratégicos, sempre mantendo conformidade com as regulamentações pertinentes e práticas de mercado adequadas à realidade da organização. Soluções inovadoras integram stakeholders e cadeias de valor, promovendo colaboração e sinergia em toda a estrutura da organização. Tecnologias avançadas e automação são aplicadas estrategicamente, quando necessário, para otimizar operações e gerar vantagem competitiva. Explora-se o potencial de novos produtos e serviços baseados em dados, alinhados aos objetivos do negócio. Essa abordagem consolida uma cultura de dados interna, facilitando a colaboração com o ecossistema externo, conforme a necessidade.',
   },
 ];
 

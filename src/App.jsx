@@ -11,7 +11,6 @@ import Formalization from './pages/Formalization'
 import Quality from './pages/Quality'
 import Infrastructure from './pages/Infrastructure'
 import Open from './pages/Open'
-import Survey from './pages/Survey'
 
 export default function App() {
   return (
@@ -26,7 +25,6 @@ export default function App() {
             <li><Link to="/level">Níveis</Link></li>
             <li><Link to="/dimensions">Dimensões</Link></li>
             <li><Link to="/roles">Papéis</Link></li>
-            <li><Link to="/survey">Ajude a Aprimorar esse Framework!</Link></li>
           </ul>
         </nav>
       </header>
@@ -43,7 +41,6 @@ export default function App() {
         <Route path="/quality" element={<Quality />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/open" element={<Open />} />
-        <Route path="/survey" element={<Survey />} />
       </Routes>
       </main>
 

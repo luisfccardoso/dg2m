@@ -22,10 +22,10 @@ const Main = () => {
         <p>A maturidade organizacional é avaliada a partir de seis dimensões centrais:</p>
         <ul>
           <li>Estratégia e Governança de Dados</li>
-          <li>Equipes, Pessoas e Estrutura Organizacional</li>
+          <li>Cultura, Pessoas e Estrutura Organizacional</li>
           <li>Formalização e Processos de Gestão de Dados</li>
           <li>Qualidade dos Dados</li>
-          <li>Infraestrutura de Dados</li>
+          <li>Infraestrutura para Dados</li>
           <li>Dados Abertos (opcional)</li>
         </ul>
       </section>

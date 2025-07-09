@@ -7,11 +7,11 @@ const dimensions = [
     id: 'formalization',
     title: 'Formalização e Processos de Gestão de Dados',
     description:
-      'Esta dimensão avalia práticas relacionadas à gestão de metadados, dados mestres, arquitetura de dados, modelos de dados e proteção de dados. Seu objetivo é avaliar o nível de maturidade organizacional no uso e na governança de dados, promovendo eficiência operacional, alinhamento estratégico e conformidade regulatória. Além disso, esta dimensão inclui abordagens de desenvolvimento iterativas, práticas de metadados, controle de ciclo de vida, integração DevOps, padrões de documentação, licenciamento e identificação de riscos. Também enfatiza o alinhamento de processos internos com políticas internas e externas, bem como a implementação de mecanismos de monitoramento de processos e acompanhamento de desempenho.',
+      'Esta dimensão avalia práticas relacionadas à gestão de metadados, dados mestres, arquitetura de dados, modelos de dados e classificação de dados. Seu objetivo é avaliar o nível de maturidade organizacional no uso e na governança de dados, promovendo eficiência operacional, alinhamento estratégico e conformidade regulatória. Além disso, esta dimensão inclui abordagens de desenvolvimento iterativas, práticas de metadados, controle de ciclo de vida, integração DevOps, padrões de documentação, licenciamento e identificação de riscos. Além disso, a dimensão destaca a participação ativa dos diversos papéis envolvidos, como gestores e consumidores de dados, e o estabelecimento de mecanismos eficazes e seguros para o compartilhamento de dados ao longo de todo o ciclo de vida do tratamento. Também enfatiza o alinhamento de processos internos de dados com políticas internas e externas (como normas, políticas e modelos específicos de privacidade e segurança da informação), bem como a implementação de mecanismos de monitoramento de processos e acompanhamento de desempenho.',
     people:
       'Avalia o conhecimento e a responsabilidade das equipes na aplicação de práticas de gestão de dados, incluindo documentação e controle de ciclo de vida.',
     policies:
-      'Refere-se à existência de diretrizes e padrões claros para governança de dados, proteção, integração, práticas DevOps e licenciamento.',
+      'Refere-se à existência de diretrizes e padrões claros para governança de dados, classificação, integração, práticas DevOps e licenciamento, bem como adequação, a partir de modelos e normas específicos, aos temas que se relacionam com a área de dados (como segurança da informação e privacidade).',
     capabilities:
       'Envolve ferramentas, tecnologias e processos que apoiam a gestão de dados, integração, desenvolvimento iterativo, identificação de riscos e monitoramento de desempenho.',
     levels: [
@@ -22,7 +22,7 @@ const dimensions = [
         people:
           'A equipe não possui conhecimento sobre conceitos básicos como metadados, dados mestres e proteção de dados.',
         policies:
-          'Não existem políticas específicas para categorização, proteção ou integração de dados.',
+          'Não existem políticas e processos específicos para classificação, gestão de metadados, gestão de dados mestres e de referência, integração e interoperabilidade e gestão de riscos.',
         capabilities:
           'Não há ferramentas ou infraestrutura para gerenciar dados mestres ou metadados.',
         improvement:
@@ -35,33 +35,33 @@ const dimensions = [
         people:
           'Papéis começam a ser definidos em áreas isoladas, mas sem clareza ou alinhamento estratégico.',
         policies:
-          'Políticas básicas são desenvolvidas, mas carecem de padronização, consideração de riscos ou foco em ciclo de vida.',
+          'Políticas iniciais são desenvolvidas, mas carecem de padronização, consideração de riscos ou foco em ciclo de vida.',
         capabilities:
           'Ferramentas básicas são utilizadas para atender a demandas pontuais de metadados e dados mestres.',
         improvement:
-          'Criar uma equipe inicial de gestão de dados com apoio da alta gestão. Documentar processos existentes e identificar lacunas para formalização de políticas. Realizar benchmarking com líderes em governança de dados de outras organizações para descobrir práticas eficazes.',
+          'Criar uma equipe inicial de gestão de dados com apoio da alta gestão. Documentar processos existentes e identificar lacunas para formalização de políticas. Focar em organizar processos internos e definir papéis e responsabilidades claras para as atividades mais críticas de gestão de dados.',
       },
       {
-        title: 'Nível 2: Repetível – Práticas Emergentes, Iniciativas Incipientes e Transformação de Ativos',
+        title: 'Nível 2: Emergente – Iniciativas Incipientes,  Transformação de Ativos e Processos Repetíveis',
         content:
           'Além das melhorias dos níveis anteriores, práticas emergentes são introduzidas para metadados e dados mestres, juntamente com os primeiros passos em direção ao controle de ciclo de vida e padrões de documentação.',
         people:
           'As equipes reconhecem a importância de práticas padronizadas para eficiência organizacional.',
         policies:
-          'Políticas básicas de gestão de dados mestres e proteção de dados começam a ser formalizadas.',
+          'Políticas básicas de gestão de dados mestres, classificação e proteção de dados começam a ser formalizadas.',
         capabilities:
-          'Um repositório central para metadados e dados mestres é criado. Práticas de documentação começam a emergir.',
+          'Um repositório central para metadados e dados mestres é criado, servindo como base para compartilhamento controlado de dados na organização. Práticas de documentação começam a emergir.',
         improvement:
-          'Implementar um repositório centralizado de metadados acessível a todas as áreas da organização. Desenvolver políticas organizacionais para governança e proteção de dados alinhadas às melhores práticas. Introduzir padrões iniciais de documentação e definir estágios do ciclo de vida dos dados.',
+          'Implementar um repositório centralizado de metadados acessível a todas as áreas da organização. Começar a definir políticas de acesso e uso para diferentes perfis. Desenvolver políticas organizacionais para governança e proteção de dados alinhadas às melhores práticas. Introduzir padrões iniciais de documentação e definir estágios do ciclo de vida dos dados. Realizar benchmarking com líderes em governança de dados de outras organizações para descobrir práticas eficazes.',
       },
       {
         title: 'Nível 3: Definido – Estruturado e Padronizado',
         content:
           'Além das melhorias dos níveis anteriores, as práticas de gestão de dados tornam-se estruturadas e padronizadas, com políticas para metadados, controle de ciclo de vida, integração com DevOps e identificação de riscos.',
         people:
-          'As partes interessadas compreendem a importância de padrões claros para metadados, dados mestres e arquitetura integrada.',
+          'As partes interessadas (como gestores, operadores e consumidores) compreendem a importância de padrões claros para metadados, dados mestres e arquitetura integrada.',
         policies:
-          'Políticas de qualidade, privacidade e segurança dos dados são formalizadas e amplamente adotadas. Considerações sobre riscos e licenciamento são incluídas.',
+          'Políticas de qualidade, classificação e segurança de dados são formalizadas e amplamente adotadas, adequando à normas e modelos específicos (quando necessário), abrangendo diretrizes para acesso e compartilhamento por diferentes perfis de usuários, além de considerações sobre riscos e licenciamento.',
         capabilities:
           'Sistemas centralizados dão suporte à integração e ao monitoramento de metadados, dados mestres e pipelines DevOps.',
         improvement:
@@ -121,14 +121,14 @@ const Dimensions = () => {
         <nav className={`sidebar ${menuOpen ? 'open' : 'closed'}`}>
           <ul className="nav-links1">
             <li><Link to="/strategy">Estratégia e Governança de Dados</Link></li>
-            <li><Link to="/people">Equipes, Pessoas e Estrutura Organizacional</Link></li>
+            <li><Link to="/people">Cultura, Pessoas e Estrutura Organizacional</Link></li>
             <li>
               <NavLink to="/formalization" className={({ isActive }) => (isActive ? 'active-link' : '')}>
                 Formalização e Processos de Gestão de Dados
               </NavLink>
             </li>
             <li><Link to="/quality">Qualidade dos Dados</Link></li>
-            <li><Link to="/infrastructure">Infraestrutura de Dados</Link></li>
+            <li><Link to="/infrastructure">Infraestrutura para Dados</Link></li>
             <li><Link to="/open">Dados Abertos</Link></li>
           </ul>
         </nav>
@@ -168,7 +168,7 @@ const Dimensions = () => {
                       <li><strong>Políticas:</strong> {dim.levels[activeLevel].policies}</li>
                       <li><strong>Capacidades:</strong> {dim.levels[activeLevel].capabilities}</li>
                     </ul>
-                    <p><strong>Melhorias e práticas sugeridas:</strong> {dim.levels[activeLevel].improvement}</p>
+                    <p><strong>Melhorias e práticas recorrentes para o nível:</strong> {dim.levels[activeLevel].improvement}</p>
                   </div>
                 </section>
               ))}

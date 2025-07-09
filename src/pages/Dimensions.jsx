@@ -25,10 +25,10 @@ const Dimensions = () => {
         <nav className={`sidebar ${menuOpen ? 'open' : 'closed'}`}>
           <ul className="nav-links1">
             <li><Link to="/strategy">Estratégia e Governança de Dados</Link></li>
-            <li><Link to="/people">Equipes, Pessoas e Estrutura Organizacional</Link></li>
+            <li><Link to="/people">Cultura, Pessoas e Estrutura Organizacional</Link></li>
             <li><Link to="/formalization">Formalização e Processos de Gestão de Dados</Link></li>
             <li><Link to="/quality">Qualidade dos Dados</Link></li>
-            <li><Link to="/infrastructure">Infraestrutura de Dados</Link></li>
+            <li><Link to="/infrastructure">Infraestrutura para Dados</Link></li>
             <li><Link to="/open">Dados Abertos</Link></li>
           </ul>
         </nav>

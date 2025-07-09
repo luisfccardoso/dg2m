@@ -19,7 +19,7 @@ const Roles = () => {
       </section>
 
      <section className="main-section">
-      <h2>Nível Estratégico</h2>
+      <h2>Área de Atuação: Estratégia e Liderança</h2>
         <p>
           <strong>Patrocinadores(as) Executivos(as) / Alta Administração</strong> definem a visão e a estratégia geral da organização para os dados. Fornecem o patrocínio, endosso e garantem a alocação de recursos (financeiros, humanos, tecnológicos) necessários para as iniciativas de governança de dados, reforçando a importância da cultura de dados e da responsabilidade em toda a organização.
         </p>
@@ -35,20 +35,24 @@ const Roles = () => {
       </section>
 
       <section className="main-section">
-        <h2>Nível Operacional/Tático</h2>
+        <h2>Área de Atuação: Gestão e Curadoria de Dados</h2>
         <p>
           <strong>Curadores(as) de Dados (Data Stewards)</strong> gerenciam a qualidade, as definições (metadados de negócio) e o ciclo de vida dos dados dentro de um domínio de negócio específico. Traduzem requisitos de negócio em regras de dados, monitoram a conformidade com essas regras e trabalham para resolver problemas de qualidade de dados. São responsáveis por gerenciar o catálogo de dados, glossário de negócios e outras documentações relacionadas aos metadados, assegurando que as definições de dados sejam claras, consistentes e acessíveis. Atuam como guardiões(ãs) dos dados e ponte entre as áreas de negócio e a tecnologia, facilitando a descoberta e o entendimento dos ativos de dados pela organização.
         </p>
         <p>
           <strong>Gerentes de Equipes de Dados / Gestores(as) de Dados</strong> coordenam equipes e projetos de dados, gerenciando recursos, cronogramas e entregas. Asseguram que as práticas de governança de dados sejam integradas aos processos de desenvolvimento e operação de dados.
         </p>
+      </section>
+
+      <section className="main-section">
+        <h2>Área de Atuação: Operações de Dados</h2>
         <p>
           <strong>Usuários(as)/Operadores(as) de Dados (Data Creators/Operators)</strong> são responsáveis pela criação, inserção, atualização e manutenção diária de dados em sistemas operacionais e ferramentas de negócio. Devem seguir estritamente as políticas e diretrizes de qualidade de dados, contribuindo fundamentalmente para a integridade dos dados na origem. Inclui colaboradores(as) que geram ou inserem dados no seu dia a dia.
         </p>
       </section>
 
       <section className="main-section">
-        <h2>Nível Técnico</h2>
+        <h2>Área de Atuação: Engenharia e Infraestrutura de Dados</h2>
         <p>
           O <strong>Engenheiro(a) de Dados (Data Engineer)</strong> projeta, constrói, otimiza e mantém a infraestrutura de dados (como, data lakes, data warehouses, bancos de dados, etc.) e os pipelines de dados (ETL/ELT). Garante a ingestão, transformação, armazenamento e disponibilidade dos dados em escala, colaborando com cientistas e analistas para atender às suas necessidades de acesso e processamento de dados.
         </p>
@@ -61,7 +65,7 @@ const Roles = () => {
       </section>
 
       <section className="main-section">
-        <h2>Nível de Análise e Consumo de Dados</h2>
+        <h2>Área de Atuação: Análise e Consumo de Dados</h2>
         <p>
           <strong>Consumidores(as) de Dados</strong> utilizam os produtos de dados (como, relatórios, dashboards, modelos e aplicações) para análise, tomada de decisão e operações de negócio. Fornecem feedback valioso sobre a usabilidade, relevância e qualidade dos dados, orientando as prioridades da governança e melhorias nos sistemas.
         </p>
@@ -71,7 +75,7 @@ const Roles = () => {
       </section>
 
       <section className="main-section">
-        <h2>Nível de Conformidade e Governança Legal</h2>
+        <h2>Área de Atuação: Conformidade e Governança Legal</h2>
         <p>
           O <strong>Encarregado(a) de Proteção de Dados (DPO)</strong> foca no estrito cumprimento da LGPD (e outras leis de proteção de dados relevantes). Atua como ponto de contato para autoridades reguladoras e titulares dos dados, monitora a conformidade interna e externa e aconselha a organização sobre as obrigações de proteção de dados.
         </p>
@@ -81,7 +85,7 @@ const Roles = () => {
       </section>
 
       <section className="main-section">
-        <h2>Nível de Habilitação e Transformação Cultural</h2>
+        <h2>Área de Atuação: Habilitação e Transformação Cultural</h2>
         <p>
           <strong>Data Product Managers / Product Owners</strong> lideram o ciclo de vida de produtos de dados (como, dashboards, pipelines de dados específicos, modelos de IA), desde a concepção até a entrega e manutenção. Atuam como ponte entre as necessidades do negócio e as equipes técnicas, garantindo que os produtos de dados agreguem valor e atendam aos padrões de governança. Reconhece a tendência de "produtos de dados".
         </p>
@@ -93,7 +97,7 @@ const Roles = () => {
       <section className="main-section">
         <h2>Integração de Papéis ao Longo dos Níveis de Maturidade</h2>
         <p>
-          À medida que a organização evolui, esses papéis tornam-se cada vez mais definidos, integrados e fortalecidos—contribuindo para uma cultura de dados mais ágil, ética e orientada por valor.
+          À medida que a organização evolui, esses papéis tornam-se cada vez mais definidos, integrados e fortalecidos, contribuindo para uma cultura de dados mais ágil, ética e orientada por valor.
         </p>
       </section>
     </div>

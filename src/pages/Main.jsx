@@ -13,10 +13,11 @@ const Main = () => {
         <h2>Sobre</h2>
         <p>
           Para operacionalizar o DG2M, é necessária uma metodologia que permita medir o nível atual de maturidade de uma organização nas dimensões e aspectos definidos.
-          A metodologia tem caráter tanto diagnóstico — voltada à identificação de lacunas existentes — quanto desenvolvimental — com o objetivo de orientar melhorias estratégicas ao longo do tempo.
+          A metodologia tem caráter tanto diagnóstico, voltada à identificação de lacunas existentes; quanto desenvolvimental, com o objetivo de orientar melhorias estratégicas ao longo do tempo.
           O modelo é composto por seis níveis de maturidade, que vão do Nível 0 (Não Iniciado) ao Nível 5 (Otimizado).
         </p>
       </section>
+
       <section className="main-section" id="overview">
         <h2>Dimensões Avaliadas</h2>
         <p>A maturidade organizacional é avaliada a partir de seis dimensões centrais:</p>
@@ -29,6 +30,7 @@ const Main = () => {
           <li>Dados Abertos (opcional)</li>
         </ul>
       </section>
+
       <section className="main-section" id="overview">
         <h2>Aspectos Analíticos</h2>
         <p>O modelo avalia cada dimensão com base em três aspectos analíticos:</p>
@@ -46,16 +48,20 @@ const Main = () => {
 
         <p>
           A combinação desses três aspectos permite uma avaliação da maturidade em governança de dados, cobrindo desde o engajamento humano até os recursos técnicos utilizados na prática.
-          Cada resposta da avaliação é associada a um nível de maturidade conforme critérios predefinidos.
-        </p>
-      </section>
-      <section className="main-section" id="overview">
-        <h2>Regra do Nível Mínimo</h2>
-        <p>
-          A maturidade de cada dimensão é determinada pela <strong>Regra do Nível Mínimo</strong>, ou seja, considera-se o menor nível entre os três aspectos, destacando possíveis gargalos.
         </p>
       </section>
 
+      <section className="main-section" id="overview">
+        <h2>Documentação</h2>
+        <p>O trabalho está documentado na Dissertação de Mestrado do Luis Filipe Campos Cardoso disponível abaixo.</p>
+        <a
+          href="/dg2m/Dissertação___PPCA___Luis_Filipe.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Proposta de Framework para Avaliar a Maturidade da Governança de Dados: Uma Abordagem Empírica Combinando Revisão Sistemática da Literatura e Survey
+        </a>
+      </section>
     </div>
   );
 };

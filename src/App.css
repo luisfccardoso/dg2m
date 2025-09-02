@@ -55,6 +55,12 @@ main {
   padding: 2rem;
 }
 
+.footer-text {
+  font-size: 0.8rem;
+  color: #aaa;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;

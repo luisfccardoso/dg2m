@@ -11,6 +11,7 @@ import Formalization from './pages/Formalization'
 import Quality from './pages/Quality'
 import Infrastructure from './pages/Infrastructure'
 import Open from './pages/Open'
+import Use from './pages/UseStrategy'
 
 export default function App() {
   return (
@@ -25,6 +26,15 @@ export default function App() {
             <li><Link to="/level">Níveis</Link></li>
             <li><Link to="/dimensions">Dimensões</Link></li>
             <li><Link to="/roles">Papéis</Link></li>
+            <li><Link to="/use">Estratégia de Uso</Link></li>
+            <li>
+              <a 
+                href="mailto:luisfilipe.tec@gmail.com"
+                target="_blank" rel="noopener noreferrer"
+              >
+                Contato
+              </a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -41,11 +51,15 @@ export default function App() {
         <Route path="/quality" element={<Quality />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/open" element={<Open />} />
+        <Route path="/use" element={<Use />} />
       </Routes>
       </main>
 
       <footer className="main-footer">
-        &copy; 2025 DG2M. Todos os direitos reservados.
+        <p className='footer-text'>
+          O DG2M foi desenvolvido pelo Eng. Me. Luis Filipe Campos Cardoso, sob orientação da Profa. Dra. Edna Canedo, 
+          como parte do Mestrado Profissional em Computação Aplicada da UnB.
+        </p>
       </footer>
     </div>
   )
